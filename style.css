@@ -1,0 +1,51 @@
+/*setting standard size*/
+
+body{font:1em/150% Arial,Helvetica,sans-serif;background-color: #CCFFFF;}
+
+a{color:#669;text-decoration:none;}
+
+a:hover{text-decoration:underline;}
+
+h1{font:bold 36px/100% Arial,Helvetica,sans-serif;}
+
+h3{font: 24px/100% Arial, Helvetica,sans-serif;color: #99ffff;float: right;padding-top: 10%;}
+
+h4{font:18px/100% Arial, Helvetica, sans-serif;}
+
+#pagewrap{padding:5px;width:960px;margin:20px auto;}
+#header{height:180px;background:url(images/headnew02.jpg) no-repeat center top;}
+#content{width:600px;float:left;background:#ccffff;}
+#sidebar{width:300px;float:right;background:#99ffff;}
+#footer{clear:both;}
+
+/*setting size for normal PC screens*/
+
+@media screen and (max-width:980px){
+    #pagewrap{width:94%;}
+    #content{width:65%;}
+    #sidebar{width:30%;}}
+    img{width: 65%;}
+    
+/*setting size for tablets*/    
+    
+@media screen and (max-width:700px){
+    #content{width:auto;float:none;}
+    #sidebar{width:auto;float:none;}}
+    img{width: 600px;float: none;}
+    
+/*setting size for smartphones*/    
+    
+@media screen and (max-width:480px){
+    #header{}
+    h1{font-size:24px;}
+    h3{font-size: 18px;}
+    img{width:320px;}}
+    h4{font-size: 16px;}
+ 
+    
+
+
+#header,#content,#sidebar{margin-bottom:5px;}
+
+
+
